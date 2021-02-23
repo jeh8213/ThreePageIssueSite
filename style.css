@@ -1,0 +1,166 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: courier;
+  color: #2e2e2e;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* entire website */
+#mainContainer {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* breakfast for dinner logo */
+#logo {
+  width: 100%;
+  height: 300px;
+  background-color: #ede4d5;
+}
+
+/* menu section */
+#menu {
+  width: 300px;
+  height: 100%;
+  background-color: #8c6c3f;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 25px;
+}
+
+/* sections on the menu with links */
+#linkSpacing {
+  display: block;
+  border: 0px;
+  font-size: 200%;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ede4d5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+
+/* right section with the main content */
+#contentSection {
+  margin-left: 350px;
+  margin-top: 0px;
+  padding: 0px;
+  background-color: #ede4d5;
+  position: flex;
+}
+
+/* top header */
+#headerSection {
+  font-size: 400%;
+  /* background of the issue page */
+  background-image: url('https://hips.hearstapps.com/vidthumb/images/delish-snackdown-pancakes-09-1540245026.jpg');
+  color: #fff;
+  width: 1555px;
+  height: 300px;
+  background-size: cover;
+  background-position: center top;
+}
+
+/* header for the second page */
+#headerSectionTwo {
+  font-size: 400%;
+  /* background of the issue page */
+  background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F19%2F2019%2F02%2F27%2Ftex-mex-bake-02-dcms-large-2000.jpg');
+  color: #fff;
+  width: 1555px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* header section for the third page */
+#headerSectionThree {
+  font-size: 400%;
+  /* background of the issue page */
+  background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2016%2F06%2Fmain%2F1608p20-egg-tomato-open-faced-sandwiches_0.jpg%3Fitok%3DLdoVrgdE');
+  color: #fff;
+  width: 1555px;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* paragraph */
+#informationSection {
+  color: #787878;
+  font-size: 170%;
+  font-weight: bold;
+  background-color: #ede4d5;
+  margin-left: 0px;
+  margin-top: 0px;
+  width: 1535px;
+  height: 700px;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+}
+
+/* list of stats */
+#statsList {
+  font-size: 150%;
+}
+
+/* image on the first page */
+.imageWithText {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+/* main title */
+h1 {
+  margin: 0px;
+  padding: 10px;
+}
+
+/* title of the paragraph */
+h3 {
+  font-size: 250%;
+  color: #2e2e2e;
+  margin: 0px;
+  padding: 10px;
+}
+
+/* menu */
+h4 {
+  font-family: courier;
+  font-size: 400%;
+  text-align: center;
+  background-color: #ede4d5;
+}
+
+/* information on the page */
+span {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+/* hover color change */
+#linkSpacing:hover {
+  color: #fff;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+/* specifically the potato image */
+#potatoes {
+  width: 500px;
+  height: 400px;
+}
